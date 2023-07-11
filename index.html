@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Notes - EasyNotes</title>
+</head>
+<body>
+    <div class="header">
+        <div class="header-content">
+            <h1>EASYNOTES</h1>
+        </div>
+    </div>
+    <div class="content">
+        <div class="tabs">
+            <div class="tabs-buttons">
+                <button>tab 1</button>
+            </div>
+        </div>
+        <div class="notes">
+                <!--<div class="note-box"></div>-->
+                <div class="note-box" id="add-button-div">
+                    <button>+</button>
+                </div>
+        </div>
+        <dialog class="new-note">
+            <div class="note-title" id="title-input"  contenteditable="true">
+                <h2 id="title"></h2>
+            </div>
+            <hr>
+            <div class="note-content" id="content-input"  contenteditable="true">
+                <p></p>
+            </div>
+            <hr>
+            <button id="save-button">Save</button>
+            <button id="close-button">Cancel</button>
+        </dialog>
+    </div>
+    <script src="JS/new_note.js"></script>
+</body>
+</html>
